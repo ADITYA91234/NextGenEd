@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Basics - NextGenEd</title>
+    <link rel="stylesheet" href="#">
+    <style>
+        /* Reset some basic styles */
+* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Course Container Styles */
+.course-container {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.course-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.course-list {
+    margin: 20px 0;
+}
+
+.course-list li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Button Styles */
+.enroll-button {
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enroll-button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .course-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    header .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+        
+ 
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>NextGenEd</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="lms.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="course-container">
+        <h2>Programming Basics</h2>
+        <div class="course-details">
+            <p>Welcome to the Programming Basics course! This course is designed to teach you the fundamentals of programming. You will learn the basic concepts, syntax, and structure of programming languages.</p>
+            <p>Course Duration: 6 weeks</p>
+            <p>Level: Beginner</p>
+        </div>
+
+        <h3>Course Modules:</h3>
+        <ul class="course-list">
+            <li>Introduction to Programming</li>
+            <li>Variables and Data Types</li>
+            <li>Control Structures (Loops, If-Else)</li>
+            <li>Functions and Methods</li>
+            <li>Arrays and Collections</li>
+            <li>Object-Oriented Programming Basics</li>
+        </ul>
+
+        <button class="enroll-button">Enroll Now</button>
+    </section>
+</body>
+</html>
